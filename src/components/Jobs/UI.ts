@@ -14,10 +14,25 @@ export const Box = styled.div<{ color: string }>`
   width: 250px;
   height: 250px;
   border-style: solid;
-  border-width: 6px;
+  border-width: 8px;
   border-color: ${({ color }) => color};
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   padding: 20px;
+
+  h2 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  @media (max-width: 1024px) {
+    width: calc(50% - 120px);
+  }
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;

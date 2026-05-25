@@ -1,10 +1,15 @@
-import { getContractTypeColor } from "./helpers.ts";
 import type { JobProps } from "./types.ts";
 import * as S from "./UI.ts";
 
-export const Job = ({ title, contractType, country, city }: JobProps) => {
+export const Job = ({
+  title,
+  contractType,
+  country,
+  city,
+  color,
+}: JobProps) => {
   return (
-    <S.Box color={getContractTypeColor(contractType)}>
+    <S.Box color={color}>
       <h2>{title}</h2>
       <p>
         {country} - {city} - {contractType}

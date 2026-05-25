@@ -18,6 +18,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "Australie",
               city: "Sydney",
+              color: "#e30413",
             },
             {
               id: "2",
@@ -25,6 +26,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "France",
               city: "Pantin",
+              color: "#3ea535",
             },
             {
               id: "3",
@@ -32,6 +34,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDD,
               country: "France",
               city: "Paris",
+              color: "#fe0",
             },
             {
               id: "4",
@@ -39,6 +42,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDD,
               country: "France",
               city: "Paris",
+              color: "#039fe3",
             },
             {
               id: "5",
@@ -46,6 +50,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "France",
               city: "Paris",
+              color: "#f8c5af",
             },
             {
               id: "6",
@@ -53,6 +58,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "Suède",
               city: "Stockholm",
+              color: "#e30413",
             },
             {
               id: "7",
@@ -60,6 +66,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "Suisse",
               city: "Crans-Montana",
+              color: "#3ea535",
             },
             {
               id: "8",
@@ -67,6 +74,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "USA",
               city: "New York",
+              color: "#fe0",
             },
             {
               id: "9",
@@ -74,6 +82,7 @@ const App = () => {
               contractType: ContractTypeEnum.CDI,
               country: "France",
               city: "Pantin",
+              color: "#039fe3",
             },
           ]}
         />

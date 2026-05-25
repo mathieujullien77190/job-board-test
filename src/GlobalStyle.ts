@@ -4,6 +4,8 @@ export const GlobalStyle = createGlobalStyle`
 
 body {
     font-family: monospace;
+    background-color: black;
+    color: lightgray;
 }
 
 `;

@@ -9,6 +9,7 @@ export type JobData = {
   contractType: ContractTypeEnum;
   country: string;
   city: string;
+  color: string;
 };
 
 export type JobsProps = {
